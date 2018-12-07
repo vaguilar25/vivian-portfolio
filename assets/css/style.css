@@ -4975,8 +4975,9 @@ hr.separator {
 .mast.mast-trans a:hover {
   color: #FFF;
 }
+/*VA modified*/
 .mast.mast-yellow {
-  background: #e39f1c;
+  background: #c7254e;
   color: #FFF;
 }
 .mast.mast-yellow a {
@@ -6335,9 +6336,10 @@ img {
     padding: 130px 0 100px 0;
   }
 }
+/*Change*/
 @media (min-width: 1200px) {
   .mast .container {
-    padding: 130px 0;
+    padding: 100px 0;
   }
   .mast-head .container {
     padding: 200px 0 150px 0;

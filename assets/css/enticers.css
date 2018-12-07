@@ -93,8 +93,8 @@
 #enticers .enticer a .content_holder .text {
     background: #001f22;
     color: #fff;
-    width: 260px;
-    height: 146px;
+    width: 300px;
+    height: 186px;
     padding: 20px;
     -webkit-transform: rotatex(-90deg) translatez(93px);
     -moz-transform: rotatex(-90deg) translatez(93px);
@@ -110,13 +110,18 @@
     transform: rotatex(-90deg) translatez(195px);
 }
 
+.p_little {
+    font-size: 12px;
+}
 #enticers .enticer.first a .content_holder .text p {
     font-size: 18px;
 }
 
-#enticers .enticer a .content_holder .text p {
+
+#enticers .enticer a .content_holder .text  {
     line-height: 1.5;
     font-size: 16px;
 }
+
 
 .container_entice {position: relative;margin: 0 auto;width: 940px;overflow: visible;}
