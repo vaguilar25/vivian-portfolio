@@ -12,6 +12,7 @@
         crossorigin="anonymous">
     <link href="./assets/css/style.css" rel="stylesheet">
     <link href="./assets/css/enticers.css" rel="stylesheet">
+    <link href="./assets/css/charts.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
         crossorigin="anonymous">
 
@@ -20,17 +21,17 @@
 <body class="home bg bg-1">
     <!-- begin content -->
     <div class="content">
+        <!-- background -->
         <section id="main" class="mast mast-trans mast-head">
             <div class="container">
                 <div>
-                    <h2 >SOFTWARE DEVELOPER</h2>
+                    <h2>SOFTWARE DEVELOPER</h2>
                     <h1>FORONTEND / BACKEND</h1>
                     <hr class="separator">
-                    <!--                        <a href="" class="contact-toggle btn btn-lg btn-border"><span aria-hidden="true" class="icon-mail"></span>
-                            Contact Me</a> -->
+
                     <ul class="list-inline list-social text-50 push-top-lg">
 
-                        <li><a href="hhttps://www.linkedin.com/in/vivian-aguilar-05124250/"><i class="fab fa-linkedin"></i><span
+                        <li><a href="https://www.linkedin.com/in/vivian-aguilar-05124250/"><i class="fab fa-linkedin"></i><span
                                     aria-hidden="true" title="linkedln"></span></a></li>
                         <li><a href="https://www.facebook.com/vivian.aguilar"><i class="fab fa-facebook"></i><span
                                     aria-hidden="true" title="facebook"></span></a></li>
@@ -42,7 +43,7 @@
 
         </section>
     </div>
-
+    <!-- Header -->
     <div id="header" class="header affix-top">
         <div class="container text-center">
             <a class="sidebar-toggle pull-left btn btn-lg btn-none visible-xs"><span aria-hidden="true" class="icon-menu"></span></a>
@@ -50,13 +51,13 @@
                 <li><a href="#about" data-toggle="tooltip" title="" class="smooth">About</a></li>
                 <li><a href="#portfolio" data-toggle="tooltip" title="" class="smooth">Portfolio</a></li>
                 <li><a href="#skills" data-toggle="tooltip" title="" class="smooth">Skills</a></li>
-                <li><a href="#work" data-toggle="tooltip" title="" class="smooth">Work</a></li>
-                <li><a href="" class="contact-toggle" data-toggle="tooltip" title="">Contact</a></li>
+
+                <li><a href="#contact" class="contact-toggle" data-toggle="tooltip" title="">Contact</a></li>
             </ul>
         </div>
     </div>
-
-    <section id="about" class="mast mast-dark mast-collab" data-spy="scroll" data-target="#header">
+    <!-- About -->
+    <section id="about" class="mast mast-dark mast-collab">
         <div class="container">
             <h3 class="h2">About Vivian</h3>
             <p class="text-30">I started to work as a software developer almost 18 years ago.. I work remotely with
@@ -87,6 +88,7 @@
 
         </div>
     </section>
+    <!-- Portfolio -->
     <section id="portfolio" class="mast mast-yellow">
         <div class="container">
             <h3 class="h2">Portfolio</h3>
@@ -165,7 +167,7 @@
 
                                         The player can't pick more than one answer per question.
 
-                                        </p>
+                                    </p>
                                     <p>&nbsp;</p>
                                 </div>
                             </div><!-- .content_holder -->
@@ -176,5 +178,50 @@
 
         </div>
     </section>
+    <!-- Skills-->
+    <section id="skills" class="mast mast-teal">
+        <div class="container">
+            <h3 class="h2">Super Powers</h3>
+            <p class="text-xxl">Skills</p>
+            <div class="well text-xl push-top">
+                Any good designer can design in ANY medium just like<br>any good developer can program in ANY language.
+            </div>
+
+            <div class="chart" data-percent="80">HTML</div>
+            <div class="chart" data-percent="80">CSS</div>
+            <div class="chart" data-percent="60">Javascript</div>
+            <div class="chart" data-percent="50">jQuery</div>
+            <div class="chart" data-percent="30">NodeJS</div>
+            <div class="chart" data-percent="40">Firebase</div>
+            <div class="chart" data-percent="80">Tcl/tk</div>
+            <div class="chart" data-percent="50">.Net C#</div>
+            <div class="chart" data-percent="70">Postgres</div>
+            <div class="chart" data-percent="70">SqlServer</div>
+            <div class="chart" data-percent="70">Oracle</div>
+            <div class="chart" data-percent="70">LLBL-ORM</div>
+        </div>
+
+
+    </section>
+
+    <!-- Footer -->
+    <section id="contact" class="mast mast-footer">
+        <footer class="mast mast-footer">
+            <div class="container">
+                <h3 class="h2">Contact Me</h3>
+                <p class="text-xxl"><a href="mailto:vivian@viaro.net" target="_top">vivian@viaro.net</a></p>
+
+                <p class="push-top">Made by © Vivian Aguilar</p>
+            </div>
+        </footer>
+
+    </section>
     </div>
+    
+    <!-- Added link to the jQuery Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://rendro.github.io/easy-pie-chart/javascripts/jquery.easy-pie-chart.js"></script>
+    <script src="assets/javascript/design.js"></script>
 </body>
